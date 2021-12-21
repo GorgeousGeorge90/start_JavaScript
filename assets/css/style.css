@@ -1,0 +1,78 @@
+* {
+    margin:0;
+}
+
+header {
+    height: 200px;
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+
+.logo_text h1 {
+    color: #b18f20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 80px 0 0 0;
+}
+
+.logo_text p {
+    color: #b18f20;
+    font-size: 1.3em;
+}
+
+.wrapper {
+    background-color:#fff;;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: solid 1px; color: #f2f2f2;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+
+}
+
+li {
+    list-style:none;
+    padding: 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2em;
+    color:darkslateblue;
+    font-style: italic;
+}
+
+li a span {
+    color: black;
+    font-family: monospace;
+
+}
+
+li a:hover {
+    color: darkviolet;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+
+footer a:hover {
+    color: orange
+}
