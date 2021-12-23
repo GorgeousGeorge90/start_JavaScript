@@ -35,6 +35,10 @@ header {
     box-shadow: 5px 5px grey;
 }
 
+.wrapper a {
+    color: firebrick;
+}
+
 .wrapperTask2 {
     background-color:#fff;;
     height: 100vh;
@@ -80,12 +84,19 @@ li a {
 li a span {
     color: black;
     font-family: monospace;
-
 }
 
 li a:hover {
     color: darkviolet;
 }
+
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    align-self: center;
+  }
 
 footer {
     height: 60px;
