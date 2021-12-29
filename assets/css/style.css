@@ -36,7 +36,9 @@ header {
 }
 
 .wrapper a {
-    color: firebrick;
+    color: darkslateblue;
+    text-decoration: none;
+    font-style: italic;
 }
 
 .wrapperTask2 {
@@ -77,6 +79,10 @@ header {
 #duplicateField{
     font-family: cursive;
     color:darkslateblue;
+}
+
+.parent {
+    align-self: center;
 }
 
 ul {
